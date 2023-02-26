@@ -83,3 +83,6 @@ button {
   align-items: center;
   justify-content: center;
 }
+button:hover {
+  background-color: hsl(158, 49%, 15%);
+}
