@@ -10,16 +10,34 @@ body {
 body {
   display: flex;
   align-items: center;
-  flex-direction: column;
+  justify-content: center;
+}
+#precos {
+  align-items: center;
+  display: flex;
+}
+#precos h6 {
+  margin-left: 12px;
+}
+#caixa {
+  border-radius: 12px;
+  background-color: #ffffff;
+  display: flex;
+}
+#caixa #perfume {
+  border-radius: 12px 0px 0px 12px;
+  height: 100%;
+  width: 350px;
+  object-fit: cover;
+}
+#carrinho {
+  margin-right: 12px;
 }
 header {
   font-family: "Fraunces", serif;
   font-weight: 700;
-  padding: 50px 50px;
+  padding: 32px;
   border-radius: 8px;
-  background-color: #ffffff;
-  margin-top: 100px;
-  margin-bottom: 30px;
 }
 p {
   font-size: 14px;
@@ -31,6 +49,7 @@ h2 {
   font-family: "Fraunces", serif;
   font-weight: 700;
   color: hsl(158, 36%, 37%);
+  font-size: 40px;
 }
 h5 {
   text-align: left;
@@ -39,6 +58,7 @@ h5 {
   color: hsl(228, 12%, 48%);
 }
 h6 {
+  font-size: 15px;
   text-align: right;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
@@ -51,12 +71,15 @@ button {
   box-sizing: border-box;
   color: #ffffff;
   cursor: pointer;
-  display: inline-block;
+  display: flex;
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
-  font-weight: 500;
-  height: 40px;
+  font-weight: 700;
+  height: 50px;
   padding: 10px 16px;
   position: relative;
   text-align: center;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
 }
