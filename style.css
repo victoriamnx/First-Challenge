@@ -16,26 +16,36 @@ body {
   justify-content: center;
   flex-direction: column;
 }
+#caixa {
+  background-color: #ffffff;
+  display: flex;
+  width: 672px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+#caixa #imagens {
+  border-radius: 10px 0px 0px 10px;
+  display: flex;
+  width: 336px;
+  overflow: hidden;
+}
+#caixa #imagens #desktop {
+  display: block;
+  width: 336px;
+}
+#caixa #imagens #mobile {
+  display: none;
+  width: 336px;
+}
+#carrinho {
+  margin-right: 12px;
+}
 #precos {
   align-items: center;
   display: flex;
 }
 #precos h6 {
   margin-left: 12px;
-}
-#caixa {
-  border-radius: 12px;
-  background-color: #ffffff;
-  display: flex;
-}
-#caixa #perfume {
-  border-radius: 12px 0px 0px 12px;
-  height: 100%;
-  width: 350px;
-  object-fit: cover;
-}
-#carrinho {
-  margin-right: 12px;
 }
 header {
   font-family: "Fraunces", serif;
@@ -103,4 +113,19 @@ button:hover {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width: 692px) {
+  #caixa {
+    flex-direction: column;
+    width: 336px;
+  }
+
+  #caixa #imagens #desktop {
+    display: none;
+  }
+
+  #caixa #imagens #mobile {
+    display: block;
+  }
 }
