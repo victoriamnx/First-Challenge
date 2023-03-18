@@ -1,4 +1,4 @@
-♡ Frontend Mentor - Profile Card Component
+♡ Frontend Mentor - Product Preview Card Component
 
 This is a solution to the [https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa/hub].
 
