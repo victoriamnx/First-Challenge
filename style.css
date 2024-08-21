@@ -115,6 +115,7 @@ button:hover {
 }
 
 a:link {
+  color: hsl(228, 12%, 48%);
   text-decoration: none;
 }
 
